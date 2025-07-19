@@ -109,7 +109,7 @@ python tools/proposals_to_via.py \
 
 **Purpose:** Automatically generates `_finish.json` files with random action labels for pipeline testing.
 
-**Script:** `tools/dummy_annotator.py`
+**Script:** `dummy_annotator.py`
 
 **Key Logic:**
 - Finds all `_via.json` files in the frame directory
@@ -119,7 +119,7 @@ python tools/proposals_to_via.py \
 
 **Command:**
 ```bash
-python tools/dummy_annotator.py --frame_dir "/path/to/your/frames/"
+python dummy_annotator.py --frame_dir "/path/to/your/frames/"
 ```
 
 **Note:** This method is only for testing the complete pipeline without manual annotation effort.
